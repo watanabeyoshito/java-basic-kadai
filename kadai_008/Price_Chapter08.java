@@ -4,7 +4,7 @@ public class Price_Chapter08 {
 
 	public static void main(String[] args) {
 		int userAge = 30;
-		int serviceCost;
+		int serviceCost = 3000;
 		
 		serviceCost = switch(userAge) {
 		case 10 -> 1000;
